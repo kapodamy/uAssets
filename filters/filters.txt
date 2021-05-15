@@ -1,4 +1,4 @@
-! Title: uBlock filters
+! Title: uBlock filters custom
 ! Expires: 4 days
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Homepage: https://github.com/uBlockOrigin/uAssets
@@ -115,7 +115,7 @@ youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkle
 ! https://redd.it/ggcmkp https://redd.it/gx03e0
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+!!!!!!!!!!!!!!!!!!! youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 ! https://www.reddit.com/r/uBlockOrigin/comments/kg7224/
 youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
 
